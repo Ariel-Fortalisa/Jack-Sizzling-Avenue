@@ -1,0 +1,42 @@
+#sidebar {
+    width: 50px; /* Collapsed width */
+    transition: width 0.3s ease;
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #343a40;
+    top: 100;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Expanded sidebar */
+#sidebar.expanded {
+    width: 200px;
+}
+
+/* Sidebar nav links */
+.nav-link {
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Icon and text spacing */
+.nav-link i {
+    margin-right: 10px;
+}
+
+/* Hide text when collapsed */
+.nav-text {
+    display: none;
+}
+
+/* Show text when expanded */
+#sidebar.expanded .nav-text {
+    display: inline-block;
+}

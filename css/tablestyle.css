@@ -1,0 +1,44 @@
+#productTable tr th, 
+#productTable tr td,
+#batchTable tr th, 
+#batchTable tr td{
+    vertical-align: middle;
+    
+}
+
+
+.inner-row td{
+    padding: 0px;
+}
+
+
+.productTable{
+    overflow-x: auto;
+}
+
+.batchTableRow {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.productTableRow{
+    overflow-x: auto;
+}
+
+.tooltip { 
+    pointer-events: none;
+}
+
+#addProduct-generateBarcode{
+    transition: 0.5s;
+}
+
+#productTable1{
+    vertical-align: middle;
+    text-align: center;
+}
+
+#pp{
+    height: 50px;
+    width: 50px;
+}
